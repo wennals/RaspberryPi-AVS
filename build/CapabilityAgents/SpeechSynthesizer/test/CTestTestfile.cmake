@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/alexa-voice-service-sdk/src/avs-device-sdk/CapabilityAgents/SpeechSynthesizer/test
+# Build directory: /home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(SpeechSynthesizerTest.test_createWithNullAudioPipelineFactoryFails "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_createWithNullAudioPipelineFactoryFails")
+add_test(SpeechSynthesizerTest.test_callingHandleImmediately "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingHandleImmediately")
+add_test(SpeechSynthesizerTest.test_callingHandle "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingHandle")
+add_test(SpeechSynthesizerTest.test_callingCancel "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingCancel")
+add_test(SpeechSynthesizerTest.test_callingCancelAfterHandle "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingCancelAfterHandle")
+add_test(SpeechSynthesizerTest.test_callingProvideStateWhenNotPlaying "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingProvideStateWhenNotPlaying")
+add_test(SpeechSynthesizerTest.test_callingProvideStateWhenPlaying "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingProvideStateWhenPlaying")
+add_test(SpeechSynthesizerTest.testTimer_bargeInWhilePlaying "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.testTimer_bargeInWhilePlaying")
+set_tests_properties(SpeechSynthesizerTest.testTimer_bargeInWhilePlaying PROPERTIES  LABELS "timertest")
+add_test(SpeechSynthesizerTest.testTimer_notCallStopTwice "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.testTimer_notCallStopTwice")
+set_tests_properties(SpeechSynthesizerTest.testTimer_notCallStopTwice PROPERTIES  LABELS "timertest")
+add_test(SpeechSynthesizerTest.testSlow_callingCancelBeforeOnFocusChanged "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.testSlow_callingCancelBeforeOnFocusChanged")
+set_tests_properties(SpeechSynthesizerTest.testSlow_callingCancelBeforeOnFocusChanged PROPERTIES  LABELS "slowtest")
+add_test(SpeechSynthesizerTest.test_callingCancelBeforeOnExecuteStateChanged "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_callingCancelBeforeOnExecuteStateChanged")
+add_test(SpeechSynthesizerTest.test_mediaPlayerFailedToStop "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_mediaPlayerFailedToStop")
+add_test(SpeechSynthesizerTest.testTimer_mediaPlayerAlwaysFailToStop "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.testTimer_mediaPlayerAlwaysFailToStop")
+set_tests_properties(SpeechSynthesizerTest.testTimer_mediaPlayerAlwaysFailToStop PROPERTIES  LABELS "timertest")
+add_test(SpeechSynthesizerTest.testSlow_setStateTimeout "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.testSlow_setStateTimeout")
+set_tests_properties(SpeechSynthesizerTest.testSlow_setStateTimeout PROPERTIES  LABELS "slowtest")
+add_test(SpeechSynthesizerTest.test_givenPlayingStateFocusBecomesNone "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_givenPlayingStateFocusBecomesNone")
+add_test(SpeechSynthesizerTest.testTimer_onPlayedStopped "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.testTimer_onPlayedStopped")
+set_tests_properties(SpeechSynthesizerTest.testTimer_onPlayedStopped PROPERTIES  LABELS "timertest")
+add_test(SpeechSynthesizerTest.test_replaceAllWithEmptyQueue "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_replaceAllWithEmptyQueue")
+add_test(SpeechSynthesizerTest.test_replaceAllWithNonEmptyQueue "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_replaceAllWithNonEmptyQueue")
+add_test(SpeechSynthesizerTest.test_replaceAllStopActiveSpeech "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_replaceAllStopActiveSpeech")
+add_test(SpeechSynthesizerTest.test_enqueueWithActiveSpeech "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_enqueueWithActiveSpeech")
+add_test(SpeechSynthesizerTest.test_replaceEnqueuedWithAnotherEnqueuedItem "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_replaceEnqueuedWithAnotherEnqueuedItem")
+add_test(SpeechSynthesizerTest.test_parsingSingleAnalyzerConfig "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_parsingSingleAnalyzerConfig")
+add_test(SpeechSynthesizerTest.test_parsingMultipleAnalyzerConfig "/home/pi/alexa-voice-service-sdk/build/CapabilityAgents/SpeechSynthesizer/test/SpeechSynthesizerTest" "--gtest_filter=SpeechSynthesizerTest.test_parsingMultipleAnalyzerConfig")

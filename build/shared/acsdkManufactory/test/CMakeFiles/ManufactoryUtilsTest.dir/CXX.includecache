@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/shared/acsdkManufactory/include/acsdkManufactory/Import.h
+
+/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/shared/acsdkManufactory/include/acsdkManufactory/internal/Utils.h
+tuple
+-
+type_traits
+-
+acsdkManufactory/Import.h
+/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/shared/acsdkManufactory/include/acsdkManufactory/internal/acsdkManufactory/Import.h
+
+/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/shared/acsdkManufactory/test/ManufactoryUtilsTest.cpp
+iostream
+-
+memory
+-
+acsdkManufactory/Import.h
+/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/shared/acsdkManufactory/test/acsdkManufactory/Import.h
+acsdkManufactory/internal/Utils.h
+/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/shared/acsdkManufactory/test/acsdkManufactory/internal/Utils.h
+

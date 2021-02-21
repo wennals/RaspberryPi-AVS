@@ -1,0 +1,14 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/Sensory/test
+# Build directory: /home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(SensoryKeywordTest.test_invalidStream "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_invalidStream" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_incompatibleEndianness "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_incompatibleEndianness" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_getExpectedNumberOfDetectionsInFourAlexasAudioFileForOneObserver "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_getExpectedNumberOfDetectionsInFourAlexasAudioFileForOneObserver" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_getExpectedNumberOfDetectionsInFourAlexasAudioFileForTwoObservers "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_getExpectedNumberOfDetectionsInFourAlexasAudioFileForTwoObservers" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_getExpectedNumberOfDetectionsInAlexaStopAlexaJokeAudioFileForOneObserver "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_getExpectedNumberOfDetectionsInAlexaStopAlexaJokeAudioFileForOneObserver" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_getActiveState "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_getActiveState" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_getStreamClosedState "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_getStreamClosedState" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")
+add_test(SensoryKeywordTest.test_getExpectedNumberOfDetectionsInAlexaStopAlexaJokeAudioFileWithRandomDataAtBeginning "/home/pi/alexa-voice-service-sdk/build/KWD/Sensory/test/SensoryKeywordDetectorTest" "--gtest_filter=SensoryKeywordTest.test_getExpectedNumberOfDetectionsInAlexaStopAlexaJokeAudioFileWithRandomDataAtBeginning" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/KWD/inputs")

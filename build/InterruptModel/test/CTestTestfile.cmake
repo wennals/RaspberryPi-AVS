@@ -1,0 +1,15 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test
+# Build directory: /home/pi/alexa-voice-service-sdk/build/InterruptModel/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(InterruptModelTest.test_emptyConfiguration "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_emptyConfiguration" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_NonExistentChannelConfigReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_NonExistentChannelConfigReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_MissingContentTypeKeyReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_MissingContentTypeKeyReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_MissingMixingBehaviorKeyReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_MissingMixingBehaviorKeyReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_MissingConfigReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_MissingConfigReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_MissingIncomingChannelKeyReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_MissingIncomingChannelKeyReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_UnspecifiedMixingBehaviorKeyReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_UnspecifiedMixingBehaviorKeyReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_UnspecifiedIncomingMixingBehaviorReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_UnspecifiedIncomingMixingBehaviorReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
+add_test(InterruptModelTest.test_InvalidIncomingMixingBehaviorReturnsUndefined "/home/pi/alexa-voice-service-sdk/build/InterruptModel/test/InterruptModelTest" "--gtest_filter=InterruptModelTest.test_InvalidIncomingMixingBehaviorReturnsUndefined" "/home/pi/alexa-voice-service-sdk/src/avs-device-sdk/InterruptModel/test")
